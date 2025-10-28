@@ -1,0 +1,214 @@
+{
+  "backup_timestamp": "2025-10-28T20:31:09.356786",
+  "backup_type": "content_agents_openai_assistants",
+  "total_agents": 8,
+  "agents": [
+    {
+      "agent_name": "Social Media Manager \u2014 Community Expert",
+      "agent_type": "content_social_media",
+      "assistant_id": "asst_jytGkNiVfPCD8CNtlaA0kWBp",
+      "description": "Expert social media manager. I create high-impact posts, manage communities, and optimize engagement.",
+      "role": "Social Media Manager",
+      "status": "ACTIVE",
+      "capabilities": [
+        "social_media",
+        "community_management",
+        "engagement"
+      ],
+      "integrations": [
+        "content_strategist",
+        "video_creator",
+        "seo_optimizer"
+      ],
+      "pesi_score": 95.0,
+      "config_json": {
+        "name": "Social Media Manager",
+        "model": "gpt-4o",
+        "type": "content_specialist",
+        "platform": "openai_assistant",
+        "assistant_id": "asst_jytGkNiVfPCD8CNtlaA0kWBp"
+      }
+    },
+    {
+      "agent_name": "Video Creator \u2014 Multimedia Expert",
+      "agent_type": "content_video",
+      "assistant_id": "asst_uJr9dZtFIw28RvjSLpXPUDOt",
+      "description": "Expert video content strategist. I create viral video scripts, storyboards, and production plans.",
+      "role": "Video Creator",
+      "status": "ACTIVE",
+      "capabilities": [
+        "video_production",
+        "scripting",
+        "storyboards"
+      ],
+      "integrations": [
+        "content_strategist",
+        "social_media_manager"
+      ],
+      "pesi_score": 94.5,
+      "config_json": {
+        "name": "Video Creator",
+        "model": "gpt-4o",
+        "type": "content_specialist",
+        "platform": "openai_assistant",
+        "assistant_id": "asst_uJr9dZtFIw28RvjSLpXPUDOt"
+      }
+    },
+    {
+      "agent_name": "SEO Optimizer \u2014 Search Expert",
+      "agent_type": "content_seo",
+      "assistant_id": "asst_mzXFpekRbmaW4E7kYCPUjhT4",
+      "description": "Expert SEO strategist. I optimize content for search engines, conduct keyword research, and improve rankings.",
+      "role": "SEO Optimizer",
+      "status": "ACTIVE",
+      "capabilities": [
+        "seo",
+        "keyword_research",
+        "technical_seo"
+      ],
+      "integrations": [
+        "content_strategist",
+        "copywriter",
+        "analytics_specialist"
+      ],
+      "pesi_score": 96.0,
+      "config_json": {
+        "name": "SEO Optimizer",
+        "model": "gpt-4o",
+        "type": "content_specialist",
+        "platform": "openai_assistant",
+        "assistant_id": "asst_mzXFpekRbmaW4E7kYCPUjhT4"
+      }
+    },
+    {
+      "agent_name": "Email Marketing Specialist \u2014 Campaign Expert",
+      "agent_type": "content_email",
+      "assistant_id": "asst_1ieZo7rE8bPLWLte8jbIfWwp",
+      "description": "Expert email marketing strategist. I create high-converting campaigns, automation sequences, and newsletters.",
+      "role": "Email Marketing Specialist",
+      "status": "ACTIVE",
+      "capabilities": [
+        "email_marketing",
+        "automation",
+        "campaigns"
+      ],
+      "integrations": [
+        "content_strategist",
+        "copywriter",
+        "analytics_specialist"
+      ],
+      "pesi_score": 95.5,
+      "config_json": {
+        "name": "Email Marketing Specialist",
+        "model": "gpt-4o",
+        "type": "content_specialist",
+        "platform": "openai_assistant",
+        "assistant_id": "asst_1ieZo7rE8bPLWLte8jbIfWwp"
+      }
+    },
+    {
+      "agent_name": "Copywriter \u2014 Persuasive Writer",
+      "agent_type": "content_copywriter",
+      "assistant_id": "asst_JnCuaK6POlB3vMJroVouq7ZE",
+      "description": "Expert persuasive copywriter. I write high-converting sales pages, ads, emails, and landing pages.",
+      "role": "Copywriter",
+      "status": "ACTIVE",
+      "capabilities": [
+        "copywriting",
+        "persuasion",
+        "conversion_optimization"
+      ],
+      "integrations": [
+        "content_strategist",
+        "seo_optimizer",
+        "email_specialist"
+      ],
+      "pesi_score": 94.0,
+      "config_json": {
+        "name": "Copywriter",
+        "model": "gpt-4o",
+        "type": "content_specialist",
+        "platform": "openai_assistant",
+        "assistant_id": "asst_JnCuaK6POlB3vMJroVouq7ZE"
+      }
+    },
+    {
+      "agent_name": "Graphic Designer \u2014 Visual Expert",
+      "agent_type": "content_design",
+      "assistant_id": "asst_pJ3zMVxsj4hG6N0SKgugl1Ub",
+      "description": "Expert visual design strategist. I create stunning graphics, brand assets, and social media visuals.",
+      "role": "Graphic Designer",
+      "status": "ACTIVE",
+      "capabilities": [
+        "graphic_design",
+        "branding",
+        "visual_strategy"
+      ],
+      "integrations": [
+        "content_strategist",
+        "social_media_manager",
+        "video_creator"
+      ],
+      "pesi_score": 93.5,
+      "config_json": {
+        "name": "Graphic Designer",
+        "model": "gpt-4o",
+        "type": "content_specialist",
+        "platform": "openai_assistant",
+        "assistant_id": "asst_pJ3zMVxsj4hG6N0SKgugl1Ub"
+      }
+    },
+    {
+      "agent_name": "Analytics Specialist \u2014 Data Expert",
+      "agent_type": "content_analytics",
+      "assistant_id": "asst_Qfex42HYuokC5O9Who662wW8",
+      "description": "Expert data analyst. I track KPIs, create dashboards, and provide actionable insights.",
+      "role": "Analytics Specialist",
+      "status": "ACTIVE",
+      "capabilities": [
+        "analytics",
+        "data_analysis",
+        "dashboards"
+      ],
+      "integrations": [
+        "content_strategist",
+        "social_media_manager",
+        "seo_optimizer"
+      ],
+      "pesi_score": 96.5,
+      "config_json": {
+        "name": "Analytics Specialist",
+        "model": "gpt-4o",
+        "type": "content_specialist",
+        "platform": "openai_assistant",
+        "assistant_id": "asst_Qfex42HYuokC5O9Who662wW8"
+      }
+    },
+    {
+      "agent_name": "Community Manager \u2014 Engagement Expert",
+      "agent_type": "content_community",
+      "assistant_id": "asst_zwSZ4tnLiLqpM4q8YvtrfA5r",
+      "description": "Expert community builder. I manage conversations, foster engagement, and build loyal communities.",
+      "role": "Community Manager",
+      "status": "ACTIVE",
+      "capabilities": [
+        "community_management",
+        "engagement",
+        "moderation"
+      ],
+      "integrations": [
+        "social_media_manager",
+        "content_strategist",
+        "analytics_specialist"
+      ],
+      "pesi_score": 94.8,
+      "config_json": {
+        "name": "Community Manager",
+        "model": "gpt-4o",
+        "type": "content_specialist",
+        "platform": "openai_assistant",
+        "assistant_id": "asst_zwSZ4tnLiLqpM4q8YvtrfA5r"
+      }
+    }
+  ]
+}
