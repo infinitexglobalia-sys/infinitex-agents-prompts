@@ -1,8 +1,36 @@
 {
-  "backup_timestamp": "2025-10-28T20:31:09.356786",
-  "backup_type": "content_agents_openai_assistants",
-  "total_agents": 8,
+  "backup_timestamp": "2025-10-28T20:36:37.990425",
+  "backup_type": "content_agents_openai_assistants_complete",
+  "total_agents": 9,
   "agents": [
+    {
+      "agent_name": "Content Strategist \u2014 Strategic Planner",
+      "agent_type": "content_strategist",
+      "assistant_id": "asst_OceBngFt7almyStYskVIwnnj",
+      "description": "Expert multichannel content strategist. I create editorial calendars, coordinate cross-platform strategies, and optimize engagement.",
+      "role": "Content Strategist",
+      "status": "ACTIVE",
+      "capabilities": [
+        "editorial_calendar",
+        "strategy",
+        "coordination",
+        "analytics"
+      ],
+      "integrations": [
+        "social_media_manager",
+        "video_creator",
+        "seo_optimizer",
+        "all_content_agents"
+      ],
+      "pesi_score": 97.0,
+      "config_json": {
+        "name": "Content Strategist",
+        "model": "gpt-4o",
+        "type": "content_orchestrator",
+        "platform": "openai_assistant",
+        "assistant_id": "asst_OceBngFt7almyStYskVIwnnj"
+      }
+    },
     {
       "agent_name": "Social Media Manager \u2014 Community Expert",
       "agent_type": "content_social_media",
